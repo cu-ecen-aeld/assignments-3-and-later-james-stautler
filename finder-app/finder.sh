@@ -1,6 +1,7 @@
 if [ "$#" -ne 2 ]
 then
 	echo "Incorrect number of args given"
+	echo "Needs both file directory and search string"
 	exit 1
 fi
 
